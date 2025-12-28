@@ -222,8 +222,61 @@
         </div>
 
 
+<div style="width: 100%; max-width: 400px; margin: auto;">
+  <svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; display: block;">
+    <defs>
+      <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#d1d5db" />
+        <stop offset="50%" style="stop-color:#f3f4f6" />
+        <stop offset="100%" style="stop-color:#9ca3af" />
+      </linearGradient>
+
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+    </defs>
+
+    <g transform="translate(400, 480)">
+      
+      <g transform="translate(0, 0)">
+        <ellipse cx="0" cy="0" rx="140" ry="70" fill="#4b5563" />
+        <rect x="-140" y="-40" width="280" height="40" fill="url(#metalGrad)" />
+        <ellipse cx="0" cy="-40" rx="140" ry="70" fill="#e5e7eb" stroke="#9ca3af" />
+        <rect x="-80" y="-25" width="40" height="8" rx="4" fill="#00f2ff" filter="url(#glow)" />
+      </g>
+
+      <g transform="translate(0, -65)">
+        <ellipse cx="0" cy="0" rx="140" ry="70" fill="#4b5563" />
+        <rect x="-140" y="-40" width="280" height="40" fill="url(#metalGrad)" />
+        <ellipse cx="0" cy="-40" rx="140" ry="70" fill="#e5e7eb" stroke="#9ca3af" />
+        <rect x="-80" y="-25" width="40" height="8" rx="4" fill="#00f2ff" filter="url(#glow)" />
+      </g>
+
+      <g transform="translate(0, -130)">
+        <ellipse cx="0" cy="0" rx="140" ry="70" fill="#4b5563" />
+        <rect x="-140" y="-40" width="280" height="40" fill="url(#metalGrad)" />
+        <ellipse cx="0" cy="-40" rx="140" ry="70" fill="#e5e7eb" stroke="#9ca3af" />
+        <rect x="-80" y="-25" width="40" height="8" rx="4" fill="#00f2ff" filter="url(#glow)" />
+      </g>
+
+      <g transform="translate(0, -195)">
+        <ellipse cx="0" cy="0" rx="140" ry="70" fill="#4b5563" />
+        <rect x="-140" y="-40" width="280" height="40" fill="url(#metalGrad)" />
+        <ellipse cx="0" cy="-40" rx="140" ry="70" fill="#ffffff" stroke="#9ca3af" stroke-width="2" />
+        
+        <g transform="scale(1, 0.6)">
+          <text x="0" y="-60" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="44" fill="#C74634" text-anchor="middle">Oracle</text>
+          <text x="0" y="-25" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="16" fill="#374151" text-anchor="middle">AUTONOMOUS DATABASE</text>
+          <text x="0" y="-2" font-family="Arial, Helvetica, sans-serif" font-weight="normal" font-size="14" fill="#6b7280" text-anchor="middle">PROFESSIONAL</text>
+        </g>
+      </g>
+    </g>
+  </svg>
+</div>
 
 
+     
         <div class="cards-container">
             <!-- Certificate Card -->
             <div class="cert-card">
